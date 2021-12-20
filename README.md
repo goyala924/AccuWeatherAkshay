@@ -4,19 +4,21 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+* Create a comparator logic that matches the temperature information from the UI against that from the API
+* Add a variance logic that returns a success if temperature difference between 2 sources is within a specified range, else return a custom exception
+
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Java
+* Selenium
+* Rest Assured
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project,
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+* Trigger Test.java
+* Input -> CITY NAME
+* INPUT -> CUSTOM TEMPERATURE RANGE
 ```
